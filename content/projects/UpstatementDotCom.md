@@ -8,5 +8,5 @@ tech:
   - Vue
   - Prismic
 company: 'Upstatement'
-showInProjects: true
+showInProjects: false
 ---

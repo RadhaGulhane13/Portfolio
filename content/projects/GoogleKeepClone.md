@@ -6,7 +6,6 @@ external: 'https://keep-vue.netlify.com/'
 tech:
   - Vue
   - Firebase
-tag: 'Web App'
 showInProjects: true
 ---
 
