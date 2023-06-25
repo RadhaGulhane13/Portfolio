@@ -1,15 +1,14 @@
 ---
-date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+date: '3'
+title: 'Edushare – The Academia Assist'
+cover: './EduShare.png'
+github: 'https://github.com/RadhaGulhane13/Edushare'
+external: 'https://spotify-profile.herokuapp.com/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - NodeJS
+  - ReactJS
+  - Express
+  - MongoDB
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A secured, scalable, and efficient application to conduct the online examination in a LAN environment. Supported multiclient connection by created dedicated thread handler. Provided GUI for users using Java swing framewok.

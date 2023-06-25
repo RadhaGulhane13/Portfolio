@@ -1,15 +1,13 @@
 ---
-date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+date: '1'
+title: 'Autonomous Car AI Model'
+cover: './architecture_diagram.png'
+github: 'https://github.com/RadhaGulhane/Autonomous_Car_Model'
+external: ''
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Android Studio
+  - Artificial Intelligence
+  - Java
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+AI model for an autonomous car to predict the steering angle in the real-time driving environment in order to minimize human efforts.
