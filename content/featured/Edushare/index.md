@@ -3,7 +3,7 @@ date: '3'
 title: 'Edushare – The Academia Assist'
 cover: './EduShare.png'
 github: 'https://github.com/RadhaGulhane13/Edushare'
-external: 'https://spotify-profile.herokuapp.com/'
+external: ''
 tech:
   - NodeJS
   - ReactJS
@@ -11,4 +11,4 @@ tech:
   - MongoDB
 ---
 
-A secured, scalable, and efficient application to conduct the online examination in a LAN environment. Supported multiclient connection by created dedicated thread handler. Provided GUI for users using Java swing framewok.
+A platform to connect university students where they can share their academic work and experience with peers. It also provids functionality to upload/download extensive files even larger than 16MB.
