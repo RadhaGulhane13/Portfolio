@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'PyTorch', 'C++', 'JavaScript'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,18 +135,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Radha, and I find great satisfaction in tackling intricate problems. 
-              My journey in contributing to production code began in 2020 at Seagate. 
-              During my time there, I had the opportunity to make meaningful contributions to CORTX, a distributed object storage system. 
-              This experience allowed me to gain valuable expertise in the realms of Cloud Storage and Distributed Systems.            
+              Hello! I'm Radha, and I find great satisfaction in tackling intricate problems. My
+              journey in contributing to production code began in 2020 at Seagate. During my time
+              there, I had the opportunity to make meaningful contributions to CORTX, a distributed
+              object storage system. This experience allowed me to gain valuable expertise in the
+              realms of Cloud Storage and Distributed Systems.
             </p>
 
             <p>
-            Formatted and rephrased version:
-
-Currently, I am a graduate student in Computer Science & Engineering at The Ohio State University. My primary objective is to enhance my knowledge and engage in exciting projects within the domains of Cloud Storage, Distributed Systems, and Deep Learning.
-
-At OSU, I am actively involved in a research project focused on Distributed Deep Learning. This project is being conducted at the High-Performance Computing lab (NOWLAB) within the university.
               {/* Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
               <a href="https://starry.com/">a start-up</a>,{' '}
@@ -158,6 +154,9 @@ At OSU, I am actively involved in a research project focused on Distributed Deep
 
               At present, I am Computer Science & Engineering graduate student at 
               The Ohio State University.  */}
+              At present, I am interning at Seagate as a Software Developer working in MC-App team,
+              a team within System Data Storage chartered with delivering applications and services
+              to provide a cohesive management and user experience
             </p>
 
             {/* <p>

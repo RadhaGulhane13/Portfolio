@@ -1,10 +1,10 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2023-05-30'
+title: 'Software Developer Intern'
+company: 'Seagate, USA'
+location: 'Longmont, CO, USA'
+range: 'May 2023 - Present'
+url: 'https://www.seagate.com/'
 ---
 
 - Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
