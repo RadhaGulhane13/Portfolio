@@ -5,5 +5,6 @@ github: 'https://github.com/Seagate/cortx-motr/blob/71735b89b26fec78cea0f5fb43da
 external: 'https://keep-vue.netlify.com/'
 tech:
   - C
+  - Distributed Systems
 showInProjects: true
 ---
