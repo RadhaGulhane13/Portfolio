@@ -1,13 +1,12 @@
 ---
 date: '2017-12-01'
-title: 'Apple Music Embeddable Web Player Widget'
-github: ''
-external: 'https://tools.applemusic.com/en-us'
+title: 'Mutual Exclusion in Distributed Systsms'
+github: 'https://github.com/RadhaGulhane13/Ricart_Agrawala_Algorithm'
+external: ''
 tech:
-  - MusicKit.js
-  - JS
-  - SCSS
-company: 'Apple'
+  - Java
+  - Multithreading
+company: 'Ohio State University'
 showInProjects: true
 ---
 
