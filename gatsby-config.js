@@ -5,9 +5,9 @@ module.exports = {
     title: 'Radha Gulhane',
     description:
       'Radha Gulhane is a software engineer whose areas of interest are Distributed Systems, High Performance Computing, and Deep Learning.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://radhagulhane.netlify.app/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: 'gulhane_radha',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

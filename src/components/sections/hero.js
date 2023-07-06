@@ -3,6 +3,9 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import codingCat from '../../images/coding-cat.gif';
+import monocleFace from '../../images/face-with-monocle.gif';
+import ninja from '../../images/ninja.png';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -35,6 +38,11 @@ const StyledHeroSection = styled.section`
     line-height: 0.9;
   }
 
+  img {
+    height: 30px;
+    width: 30px;
+  }
+
   p {
     margin: 20px 0 0;
     max-width: 540px;
@@ -62,31 +70,39 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Radha Gulhane.</h2>;
   const three = (
-    <h3 className="small-heading">Software Engineer | Love Coding | Problem Solver </h3>
+    <>
+      <h3 className="small-heading">
+        Problem Solver <img src={ninja} alt="loading..." /> | Love Coding{' '}
+        <img src={codingCat} alt="loading..." /> | Enjoy Debugging{' '}
+        <img src={monocleFace} alt="loading..." />{' '}
+      </h3>
+    </>
   );
   const four = (
     <>
       <p>
-        I'm a graduate student at <b>The Ohio State University</b>, majoring in{' '}
-        <b>Computer Science & Engineering. </b>I am enhancing my knowledge in the fields of
-        High-Performance Computing, Distributed Systems, and Deep Learning. I am currently working
-        on a research project on Distributed Deep Learning at the High-Performance Computing lab
-        (NOWLAB) in OSU.{' '}
+        I am a graduate student at <b>The Ohio State University</b>, majoring in{' '}
+        <b>Computer Science & Engineering</b>. I am focused on expanding my knowledge in the areas
+        of High-Performance Computing, Distributed Systems, and Deep Learning. Currently, my
+        research efforts are dedicated to a project on Distributed Deep Learning, which I am
+        undertaking at OSU's renowned High-Performance Computing lab,{' '}
+        <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a>.{' '}
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Check out my recent work!
-    </a>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >
+  //     Check out my recent work!
+  //   </a>
+  // );
 
-  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

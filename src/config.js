@@ -19,8 +19,8 @@ module.exports = {
       url: 'https://www.linkedin.com/in/radha-gulhane/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: 'Leetcode',
+      url: 'https://leetcode.com/Radha_Gulhane/',
     },
   ],
 

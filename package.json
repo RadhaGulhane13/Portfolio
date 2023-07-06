@@ -1,11 +1,11 @@
 {
-  "name": "v4",
+  "name": "v1",
   "description": "Personal Website V4",
   "version": "1.0.0",
   "author": "Radha Gulhane <radhagulhane1300@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/RadhaGulhane13"
   },
   "keywords": [
     "gatsby"
