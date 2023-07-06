@@ -3,6 +3,9 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import codingCat from '../../images/coding-cat.gif';
+import monocleFace from '../../images/face-with-monocle.gif';
+import ninja from '../../images/ninja.png';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -35,6 +38,11 @@ const StyledHeroSection = styled.section`
     line-height: 0.9;
   }
 
+  img {
+    height: 30px;
+    width: 30px;
+  }
+
   p {
     margin: 20px 0 0;
     max-width: 540px;
@@ -61,7 +69,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Radha Gulhane.</h2>;
-  const three = <h3 className="small-heading">Problem Solver | Love Coding | Enjoy Debugging </h3>;
+  const three = (
+    <>
+      <h3 className="small-heading">
+        Problem Solver <img src={ninja} alt="loading..." /> | Love Coding{' '}
+        <img src={codingCat} alt="loading..." /> | Enjoy Debugging{' '}
+        <img src={monocleFace} alt="loading..." />{' '}
+      </h3>
+    </>
+  );
   const four = (
     <>
       <p>
