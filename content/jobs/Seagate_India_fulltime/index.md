@@ -1,6 +1,6 @@
 ---
 date: '2021-07-01'
-title: 'Cloud Systems - Software Engineer'
+title: 'Cloud Systems Engineer'
 company: 'Seagate, India'
 location: 'Pune, India'
 range: 'July 2021- July 2021'

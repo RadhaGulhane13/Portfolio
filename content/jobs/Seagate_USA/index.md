@@ -7,6 +7,5 @@ range: 'May 2023 - Present'
 url: 'https://www.seagate.com/'
 ---
 
-- Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Developing a platform that visualizes the status of memory usage in a cluster, allowing for monitoring and analysis of its health.
+- Implementing a cross-compilable Golang agent that serves as an exporter for the system's memory statistics and configure it with Prometheus and Grafana to facilitate seamless integration and data visualization
