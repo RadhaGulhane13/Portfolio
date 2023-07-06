@@ -7,6 +7,7 @@ tech:
   - Convolutional Neural Network
   - Python
   - Flask
+company: 'Vishwakarma Institute of Technology'
 showInProjects: false
 ---
 

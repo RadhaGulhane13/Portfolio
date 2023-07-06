@@ -1,7 +1,7 @@
 ---
 date: '2018-10-01'
 title: 'Metadata Object Storage'
-github: ''
+github: 'https://github.com/RadhaGulhane13/B-tree-and-B-epsilon-tree-data-strcture'
 external: 'B-tree-and-B-epsilon-tree-data-strcture'
 tech:
   - C
@@ -9,3 +9,5 @@ tech:
 company: 'Seagate'
 showInProjects: true
 ---
+
+Object storage data stuctures widely used in Databases and File Systems. This project includes implemented B, B+ tree and B-episilon tree.

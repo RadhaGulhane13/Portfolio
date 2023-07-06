@@ -8,6 +8,7 @@ tech:
   - Express
   - ReactJS
   - NodeJS
+Company: ''
 showInProjects: false
 ---
 

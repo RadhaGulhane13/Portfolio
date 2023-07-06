@@ -61,32 +61,32 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Radha Gulhane.</h2>;
-  const three = (
-    <h3 className="small-heading">Software Engineer | Love Coding | Problem Solver </h3>
-  );
+  const three = <h3 className="small-heading">Problem Solver | Love Coding | Enjoy Debugging </h3>;
   const four = (
     <>
       <p>
-        I'm a graduate student at <b>The Ohio State University</b>, majoring in{' '}
-        <b>Computer Science & Engineering. </b>I am enhancing my knowledge in the fields of
-        High-Performance Computing, Distributed Systems, and Deep Learning. I am currently working
-        on a research project on Distributed Deep Learning at the High-Performance Computing lab
-        (NOWLAB) in OSU.{' '}
+        I am a graduate student at <b>The Ohio State University</b>, majoring in{' '}
+        <b>Computer Science & Engineering</b>. I am focused on expanding my knowledge in the areas
+        of High-Performance Computing, Distributed Systems, and Deep Learning. Currently, my
+        research efforts are dedicated to a project on Distributed Deep Learning, which I am
+        undertaking at OSU's renowned High-Performance Computing lab,{' '}
+        <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a>.{' '}
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Check out my recent work!
-    </a>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >
+  //     Check out my recent work!
+  //   </a>
+  // );
 
-  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

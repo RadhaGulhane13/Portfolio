@@ -2,7 +2,7 @@
 date: '2018-12-01'
 title: 'Bouncing Ball'
 github: 'https://github.com/RadhaGulhane13/Ball-and-Bar-Game'
-external: 'https://tools.applemusic.com/en-us'
+external: ''
 tech:
   - Java
   - Swing

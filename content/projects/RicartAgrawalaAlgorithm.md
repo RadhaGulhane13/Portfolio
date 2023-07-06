@@ -10,4 +10,4 @@ company: 'Ohio State University'
 showInProjects: true
 ---
 
-Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging [MusicKit.js](https://developer.apple.com/documentation/musickitjs). Read more about this project on [9to5Mac](https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/).
+Implemented Ricart-Agrawala Algorithm for Mutual Exclusion in Distributed Systsms. Utilized socket program to communicate with the processes and dedicated Queue to store defered processes. This implementation ensures that only one process accesses a critical section at a time while allowing other processes to continue their non-critical section tasks.
