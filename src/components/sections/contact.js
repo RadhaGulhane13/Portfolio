@@ -62,7 +62,7 @@ const Contact = () => {
       <p>
         I am currently seeking full-time opportunities within the software industry. Please feel
         free to reach out to me via email if you would like to discuss my experience, recent work,
-        and interestz.
+        and interests.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
