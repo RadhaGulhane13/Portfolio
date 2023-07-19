@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -15,6 +16,13 @@ const StyledAboutSection = styled.section`
 
     @media (max-width: 768px) {
       display: block;
+    }
+  }
+  .archive-link {
+    font-family: var(--font-mono);
+    font-size: var(--fz-sm);
+    &:after {
+      bottom: 0.1em;
     }
   }
 `;
@@ -114,6 +122,9 @@ const StyledPic = styled.div`
 `;
 
 const About = () => {
+  const revealTitle = useRef(null);
+  const revealArchiveLink = useRef(null);
+  //const revealProjects = useRef([]);
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -122,6 +133,9 @@ const About = () => {
       return;
     }
 
+    sr.reveal(revealTitle.current, srConfig());
+    sr.reveal(revealArchiveLink.current, srConfig());
+    //revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
@@ -141,6 +155,10 @@ const About = () => {
               object storage system. This experience allowed me to gain valuable expertise in the
               realms of Cloud Storage and Distributed Systems.
             </p>
+
+            <Link className="inline-link archive-link" to="/art" ref={revealArchiveLink}>
+              Hover over my art works
+            </Link>
 
             <p>
               {/* Fast-forward to today, and I’ve had the privilege of working at{' '}
