@@ -89,9 +89,14 @@ const StyledArt = styled.li`
       transition: opacity 0.3s ease; 
       border-radius: 0 0 var(--border-radius) var(--border-radius);
       font-family: var(--font-mono);
-      font-size: var(--fz-sm);
-      font-weight: bold;
       // background-color: rgba(0, 0, 0, 0.7);
+      .title {
+        font-size: var(--fz-sm);
+        font-weight: bold;
+      }
+      .material {
+        font-size: var(--fz-xxs);
+      }
     }
 
     .image-container:hover .text-overlay {
@@ -120,14 +125,19 @@ const ArtPage = ({ location, data }) => {
 
   const projectInner = node => {
     const { frontmatter } = node;
-    const { title, cover } = frontmatter;
+    const { title, material, cover } = frontmatter;
     const image = getImage(cover.childImageSharp);
 
     return (
       <div className="project-inner">
         <div className="image-container">
           <GatsbyImage image={image} alt={title} className="img" />
-          <div className="text-overlay">{title}</div>
+          <div className="text-overlay">
+            <span className="title"> {title}</span>
+
+            <br />
+            <span className="material"> {material}</span>
+          </div>
         </div>
       </div>
     );
@@ -210,6 +220,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            material
             cover {
               childImageSharp {
                 gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
