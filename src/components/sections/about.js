@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -15,6 +16,13 @@ const StyledAboutSection = styled.section`
 
     @media (max-width: 768px) {
       display: block;
+    }
+  }
+  .archive-link {
+    font-family: var(--font-mono);
+    font-size: var(--fz-sm);
+    &:after {
+      bottom: 0.1em;
     }
   }
 `;
@@ -114,6 +122,9 @@ const StyledPic = styled.div`
 `;
 
 const About = () => {
+  const revealTitle = useRef(null);
+  const revealArchiveLink = useRef(null);
+  //const revealProjects = useRef([]);
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -122,6 +133,9 @@ const About = () => {
       return;
     }
 
+    sr.reveal(revealTitle.current, srConfig());
+    sr.reveal(revealArchiveLink.current, srConfig());
+    //revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
@@ -134,14 +148,20 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
+            <p>Hello! I'm Radha, and I find great satisfaction in tackling intricate problems.</p>
+
             <p>
-              Hello! I'm Radha, and I find great satisfaction in tackling intricate problems. My
-              journey in contributing to production code began in 2020 at Seagate. During my time
+              My journey in contributing to production code began in 2020 at Seagate. During my time
               there, I had the opportunity to make meaningful contributions to CORTX, a distributed
-              object storage system. This experience allowed me to gain valuable expertise in the
-              realms of Cloud Storage and Distributed Systems.
+              object storage system.
             </p>
 
+            <p>
+              In my leisure time, I pursue my passion for portrait sketching and hiking. &nbsp;
+              <Link className="inline-link archive-link" to="/art" ref={revealArchiveLink}>
+                Step into my artistic 🎨 world
+              </Link>
+            </p>
             <p>
               {/* Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
@@ -156,7 +176,7 @@ const About = () => {
               The Ohio State University.  */}
               At present, I am interning at Seagate as a Software Developer working in MC-App team,
               a team within System Data Storage chartered with delivering applications and services
-              to provide a cohesive management and user experience
+              to provide a cohesive management and user experience.
             </p>
 
             {/* <p>
