@@ -7,20 +7,20 @@ module.exports = {
       url: 'https://github.com/RadhaGulhane13',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/radha__gulhane',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/gulhane_radha',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/radha-gulhane/',
     },
     {
       name: 'Leetcode',
       url: 'https://leetcode.com/Radha_Gulhane/',
+    },
+    {
+      name: 'Instagram',
+      url: 'https://www.instagram.com/radha__gulhane',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/gulhane_radha',
     },
   ],
 
