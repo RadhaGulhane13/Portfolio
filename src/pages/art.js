@@ -159,7 +159,7 @@ const ArtPage = ({ location, data }) => {
       <main>
         <header ref={revealTitle}>
           <h1 className="big-heading">Art</h1>
-          <p className="subtitle">Emotive creativity sans words</p>
+          <p className="subtitle">Flawless Emotive Creativity</p>
         </header>
         <StyledArtsSection>
           <ul className="projects-grid">
