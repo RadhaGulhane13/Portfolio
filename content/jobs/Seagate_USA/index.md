@@ -3,7 +3,7 @@ date: '2023-05-30'
 title: 'Software Developer Intern'
 company: 'Seagate, USA'
 location: 'Longmont, CO, USA'
-range: 'May 2023 - Present'
+range: 'May 2023 - August 2023'
 url: 'https://www.seagate.com/'
 ---
 

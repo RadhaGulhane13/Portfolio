@@ -90,19 +90,19 @@ const Hero = () => {
       </p>
     </>
   );
-  // const five = (
-  //   <a
-  //     className="email-link"
-  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
-  //     target="_blank"
-  //     rel="noreferrer"
-  //   >
-  //     Check out my recent work!
-  //   </a>
-  // );
+  const five = (
+    <a
+      className="email-link"
+      href="https://github.com/OSU-Nowlab/MPI4DL"
+      target="_blank"
+      rel="noreferrer"
+    >
+      My recent contribution -&gt;
+    </a>
+  );
 
-  // const items = [one, two, three, four, five];
-  const items = [one, two, three, four];
+  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
