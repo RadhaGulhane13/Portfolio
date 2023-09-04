@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+// import handWave from '../../images/hand-wave.gif';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -60,13 +61,15 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I am currently seeking full-time opportunities within the software industry. Please feel
-        free to reach out to me via email if you would like to discuss my experience, recent work,
-        and interests.
+        I am seeking a full-time positions in Software Development, Artificial Intelligence/Machine
+        Learning, and Software Technology, with a start date between May and August 2024. Feel free
+        to reach out to me via <a href={`mailto:${email}`}>email</a> if you would like to discuss my
+        experience, recent work, and interests.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello
+        {/* <img style={{ width: 30 }}src={handWave} alt="loading..." /> */}
       </a>
     </StyledContactSection>
   );

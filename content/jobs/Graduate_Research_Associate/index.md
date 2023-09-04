@@ -1,9 +1,9 @@
 ---
-date: '2023-01-01'
-title: 'Student Researcher'
+date: '2023-08-01'
+title: 'Grauate Research Associate'
 company: 'NOWLAB : Network Based Computing Lab'
 location: 'The Ohio State University'
-range: 'Jan 2023 - Present'
+range: 'August 2023 - Present'
 url: 'https://nowlab.cse.ohio-state.edu/'
 ---
 
