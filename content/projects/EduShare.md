@@ -1,7 +1,7 @@
 ---
 date: '2018-12-18'
 title: 'Edushare – The Academia Assist'
-github: 'https://github.com/RadhaGulhane13/Edushare'
+github: 'https://github.com/RadhaGulhane13/edushare'
 external: ''
 tech:
   - MongoDB
@@ -9,7 +9,7 @@ tech:
   - ReactJS
   - NodeJS
 Company: ''
-showInProjects: false
+showInProjects: true
 ---
 
 A platform to connect university students where they can share their academic work and experience with peers. It also provids functionality to upload/download extensive files even larger than 16MB.

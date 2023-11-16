@@ -1,7 +1,7 @@
 ---
 date: '2017-12-27'
 title: 'Autonomous Car AI Model'
-github: 'https://github.com/RadhaGulhane/Autonomous_Car_Model'
+github: 'https://github.com/RadhaGulhane13/autonomous-car-model'
 external: ''
 tech:
   - Convolutional Neural Network
