@@ -1,7 +1,7 @@
 ---
 date: '2018-04-20'
 title: 'LAN Examination System'
-github: 'https://github.com/RadhaGulhane13/LAN-EXAMINATION-SYSTEM'
+github: 'https://github.com/RadhaGulhane13/LAN-examination-system'
 external: ''
 tech:
   - Java

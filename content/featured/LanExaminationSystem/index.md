@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'LAN Examination System'
 cover: './LAN_arch_diag.png'
 github: 'https://github.com/RadhaGulhane13/LAN-EXAMINATION-SYSTEM'

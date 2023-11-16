@@ -1,7 +1,7 @@
 ---
 date: '2017-12-01'
-title: 'Mutual Exclusion in Distributed Systsms'
-github: 'https://github.com/RadhaGulhane13/Ricart_Agrawala_Algorithm'
+title: 'Mutual Exclusion in Distributed Systems'
+github: 'https://github.com/RadhaGulhane13/ricart-agrawala-algorithm'
 external: ''
 tech:
   - Java

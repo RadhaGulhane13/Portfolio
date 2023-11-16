@@ -1,7 +1,7 @@
 ---
 date: '2018-12-01'
 title: 'Bouncing Ball'
-github: 'https://github.com/RadhaGulhane13/Ball-and-Bar-Game'
+github: 'https://github.com/RadhaGulhane13/bouncing-ball-game'
 external: ''
 tech:
   - Java

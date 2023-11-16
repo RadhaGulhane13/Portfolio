@@ -1,7 +1,7 @@
 ---
 date: '2016-01-01'
 title: 'Failure Recovery System'
-github: 'https://github.com/RadhaGulhane13/FailureRecoverySystem'
+github: 'https://github.com/RadhaGulhane13/failure-recovery-system'
 external: ''
 tech:
   - Python
