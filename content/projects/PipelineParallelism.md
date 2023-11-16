@@ -1,7 +1,7 @@
 ---
 date: '2022-10-01'
 title: 'Pipeline Parallelism: Distributed Deep Learning'
-github: 'https://github.com/RadhaGulhane13/data-parallelism-distributed-deep-learning'
+github: 'https://github.com/RadhaGulhane13/pipeline-parallelism-distributed-deep-learning'
 external: ''
 tech:
   - PyTorch

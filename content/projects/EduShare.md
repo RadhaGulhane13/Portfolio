@@ -1,5 +1,5 @@
 ---
-date: '2018-12-18'
+date: '2023-05-01'
 title: 'Edushare – The Academia Assist'
 github: 'https://github.com/RadhaGulhane13/edushare'
 external: ''
