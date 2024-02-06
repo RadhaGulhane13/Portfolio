@@ -69,16 +69,16 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Radha Gulhane.</h2>;
+  // const three = (
+  //   <>
+  //     <h3 className="small-heading">
+  //       Problem Solver <img src={ninja} alt="loading..." /> | Love Coding{' '}
+  //       <img src={codingCat} alt="loading..." /> | Enjoy Debugging{' '}
+  //       <img src={monocleFace} alt="loading..." />{' '}
+  //     </h3>
+  //   </>
+  // );
   const three = (
-    <>
-      <h3 className="small-heading">
-        Problem Solver <img src={ninja} alt="loading..." /> | Love Coding{' '}
-        <img src={codingCat} alt="loading..." /> | Enjoy Debugging{' '}
-        <img src={monocleFace} alt="loading..." />{' '}
-      </h3>
-    </>
-  );
-  const four = (
     <>
       <p>
         I am a graduate student at <b>The Ohio State University</b>, majoring in{' '}
@@ -90,7 +90,7 @@ const Hero = () => {
       </p>
     </>
   );
-  const five = (
+  const four = (
     <a
       className="email-link"
       href="https://github.com/OSU-Nowlab/MPI4DL"
@@ -101,8 +101,8 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
-  // const items = [one, two, three, four];
+  // const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
