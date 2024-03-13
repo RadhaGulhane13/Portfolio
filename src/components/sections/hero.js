@@ -3,7 +3,6 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-import codingCat from '../../images/coding-cat.gif';
 import monocleFace from '../../images/face-with-monocle.gif';
 import ninja from '../../images/ninja.png';
 
@@ -78,7 +77,17 @@ const Hero = () => {
   //     </h3>
   //   </>
   // );
+
   const three = (
+    <>
+      <h3 className="small-heading">
+        Love Coding <img src={ninja} alt="loading..." /> | Curious Mind{' '}
+        <img src={monocleFace} alt="loading..." />{' '}
+      </h3>
+    </>
+  );
+
+  const four = (
     <>
       <p>
         I am a graduate student at <b>The Ohio State University</b>, majoring in{' '}
@@ -90,7 +99,8 @@ const Hero = () => {
       </p>
     </>
   );
-  const four = (
+
+  const five = (
     <a
       className="email-link"
       href="https://github.com/OSU-Nowlab/MPI4DL"
@@ -101,8 +111,8 @@ const Hero = () => {
     </a>
   );
 
-  // const items = [one, two, three, four, five];
-  const items = [one, two, three, four];
+  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

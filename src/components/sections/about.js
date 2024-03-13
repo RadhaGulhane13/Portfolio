@@ -174,9 +174,11 @@ const About = () => {
 
               At present, I am Computer Science & Engineering graduate student at 
               The Ohio State University.  */}
-              At present, I am interning at Seagate as a Software Developer working in MC-App team,
+              At present, I am a graduate research student working on Distributed Deep Learning at
+              OSU.
+              {/* At present, I am interning at Seagate as a Software Developer working in MC-App team,
               a team within System Data Storage chartered with delivering applications and services
-              to provide a cohesive management and user experience.
+              to provide a cohesive management and user experience. */}
             </p>
 
             {/* <p>

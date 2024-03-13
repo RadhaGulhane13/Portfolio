@@ -71,31 +71,34 @@ const Footer = () => (
     <StyledSocialLinks>
       <ul>
         {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <a href={url} aria-label={name}>
-                  <Icon name={name} />
-                </a>
-              </li>
-            ))}
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <a href={url} aria-label={name}>
+                <Icon name={name} />
+              </a>
+            </li>
+          ))}
       </ul>
     </StyledSocialLinks>
 
     <StyledCredit tabindex="-1">
       <div>
         <small>
-            Customized with{' '}
+          Customized with{' '}
           <span role="img" aria-label="Heart">
-              ❤
+            ❤
           </span>{' '}
-            by<a href="https://github.com/RadhaGulhane13">Radha Gulhane</a>
+          by<a href="https://github.com/RadhaGulhane13">Radha Gulhane</a>
         </small>
       </div>
       <div>
         <small>
-            Template by
+          Template by
           <a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
         </small>
+      </div>
+      <div>
+        <small style={{ fontSize: '0.6em' }}>Last Updated on March 13th, 2024</small>
       </div>
     </StyledCredit>
   </StyledFooter>
