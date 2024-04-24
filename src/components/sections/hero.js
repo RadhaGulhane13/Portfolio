@@ -5,6 +5,7 @@ import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 import monocleFace from '../../images/face-with-monocle.gif';
 import ninja from '../../images/ninja.png';
+import codingCat from '../../images/coding-cat.gif'
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -68,24 +69,24 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Radha Gulhane.</h2>;
+  const three = (
+    <>
+      <h3 className="small-heading">
+        Learn <img src={codingCat} alt="loading..." /> | Explore{' '}
+        <img src={monocleFace} alt="loading..." /> | Contribute{' '}
+        <img src={ninja} alt="loading..." />{' '}
+      </h3>
+    </>
+  );
+
   // const three = (
   //   <>
   //     <h3 className="small-heading">
-  //       Problem Solver <img src={ninja} alt="loading..." /> | Love Coding{' '}
-  //       <img src={codingCat} alt="loading..." /> | Enjoy Debugging{' '}
+  //       Love Coding <img src={ninja} alt="loading..." /> | Curious Mind{' '}
   //       <img src={monocleFace} alt="loading..." />{' '}
   //     </h3>
   //   </>
   // );
-
-  const three = (
-    <>
-      <h3 className="small-heading">
-        Love Coding <img src={ninja} alt="loading..." /> | Curious Mind{' '}
-        <img src={monocleFace} alt="loading..." />{' '}
-      </h3>
-    </>
-  );
 
   const four = (
     <>
