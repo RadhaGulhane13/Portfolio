@@ -1,6 +1,6 @@
 ---
 date: '2022-10-01'
-title: 'Data Prallelism : Distributed Deep Learning'
+title: 'Data Parallelism : Distributed Deep Learning'
 github: 'https://github.com/RadhaGulhane13/data-parallelism-distributed-deep-learning'
 external: ''
 tech:
