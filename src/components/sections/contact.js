@@ -61,10 +61,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I am seeking a full-time positions in Software Development, Artificial Intelligence/Machine
-        Learning, and Software Technology, with a start date between May and August 2024. Feel free
-        to reach out to me via <a href={`mailto:${email}`}>email</a> if you would like to discuss my
-        experience, recent work, and interests.
+        If you'd like to chat or are keen to dive into my experience, recent work, and interests, feel free to drop me an <a href={`mailto:${email}`}>email</a>.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
