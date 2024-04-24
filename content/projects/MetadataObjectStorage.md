@@ -10,4 +10,4 @@ company: 'Seagate'
 showInProjects: true
 ---
 
-Object storage data stuctures widely used in Databases and File Systems. This project includes implemented B, B+ tree and B-episilon tree.
+Object storage data stuctures widely used in File Systems and Databases (example, MongoDB indexes use a B-tree, SQL uses B+tree as a object stoarge). This project includes implemented B, B+ tree and B-episilon tree.
