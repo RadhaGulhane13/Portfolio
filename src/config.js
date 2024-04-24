@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/gulhane___radha',
+      url: 'https://twitter.com/radha___gulhane',
     },
   ],
 
