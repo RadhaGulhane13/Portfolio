@@ -1,6 +1,6 @@
 ---
-date: '21'
+date: '31'
 title: 'Acrylic Art'
-material: '10 x 12 size Canvas board | Acrylic Colors'
-cover: './Dog.png'
+material: 'A4 | Graphite | Acrylic Colors'
+cover: './Scarlet_Witch.png'
 ---

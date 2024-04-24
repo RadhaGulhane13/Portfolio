@@ -1,6 +1,6 @@
 ---
 date: '23'
 title: 'Ironman'
-material: A4 size Paper | Water colors
+material: A4 | Water colors
 cover: './Ironman.jpg'
 ---
