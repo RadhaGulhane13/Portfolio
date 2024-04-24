@@ -1,6 +1,6 @@
 ---
 date: '10'
 title: 'The Great Einstein'
-material: 'A4 size Paper | Point 0 Camlin brush'
+material: 'A4 | Point 0 brush'
 cover: './Einstein.jpg'
 ---

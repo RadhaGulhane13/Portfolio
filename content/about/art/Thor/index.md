@@ -1,6 +1,6 @@
 ---
 date: '5'
 title: 'Thor'
-material: 'A3 size Paper | Camlin Graphite Pencils'
+material: 'A3 | Graphite'
 cover: './Thor.jpg'
 ---
