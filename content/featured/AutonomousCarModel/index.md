@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Autonomous Car AI Model'
 cover: './architecture_diagram.png'
 github: 'https://github.com/RadhaGulhane13/autonomous-car-model'

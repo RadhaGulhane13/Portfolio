@@ -139,7 +139,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'PyTorch', 'C++', 'Go', 'Prometheus', 'Grafana'];
+  // const skills = ['Python', 'PyTorch', 'C++', 'Go', 'Prometheus', 'Grafana'];
+  const skills = ['Large Language Models', 'Distributed Deep Learning', 'Python', 'PyTorch'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -151,9 +152,16 @@ const About = () => {
             <p>Hello! I'm Radha, and I find great satisfaction in tackling intricate problems.</p>
 
             <p>
-              My journey in contributing to production code began in 2020 at Seagate. During my time
+              {/* My journey in contributing to production code began in 2020 at Seagate. During my time
               there, I had the opportunity to make meaningful contributions to CORTX, a distributed
-              object storage system.
+              object storage system. */}
+              My focus is on Distributed Deep Learning, and I have been privileged to explore and 
+              work in this field as a graduate researcher at OSU's High-Performance Computing lab,{' '} <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a>{' '}. 
+          
+            </p>
+            
+            <p>
+              At present, I work at <a href="Zoom">Zoom</a>, focusing on Deep Learning Optimization and training platform.
             </p>
 
             <p>
@@ -174,11 +182,10 @@ const About = () => {
 
               At present, I am Computer Science & Engineering graduate student at 
               The Ohio State University.  */}
-              At present, I am a graduate research student working on Distributed Deep Learning at
-              OSU.
-              {/* At present, I am interning at Seagate as a Software Developer working in MC-App team,
-              a team within System Data Storage chartered with delivering applications and services
-              to provide a cohesive management and user experience. */}
+              {/* At present, I am a graduate research student working on Distributed Deep Learning at
+              OSU. */}
+              
+              
             </p>
 
             {/* <p>

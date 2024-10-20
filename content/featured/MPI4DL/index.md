@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'MPI4DL: Distributed Deep Learning for High Resolution Images'
 cover: './5d-parallelism.png'
 github: 'https://github.com/OSU-Nowlab/MPI4DL/'
