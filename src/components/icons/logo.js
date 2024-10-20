@@ -20,7 +20,7 @@ const IconLogo = () => (
           points="39 0 0 22 0 67 39 90 78 68 78 23"
         />
       </g>
-      <text x="35" y="70" fill="currentColor" fontSize="60px" fontFamily="Consolas">
+      <text x="33" y="70" fill="currentColor" fontSize="60px" fontFamily="Consolas">
         R
       </text>
     </g>

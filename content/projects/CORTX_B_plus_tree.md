@@ -1,6 +1,6 @@
 ---
-date: '2018-12-29'
-title: 'Contribution to CORTX : B+ tree'
+date: '2024-10-01'
+title: 'Distributed Object Storage for to CORTX : B+ tree'
 github: 'https://github.com/Seagate/cortx-motr/blob/71735b89b26fec78cea0f5fb43dadd964486fff5/be/btree.c'
 external: ''
 tech:

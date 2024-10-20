@@ -9,7 +9,7 @@ tech:
   - Socket Programming
   - Multithreading
   - Swing application framework
-showInProjects: false
+showInProjects: true
 ---
 
 A secured, scalable, and efficient application to conduct the online examination in a LAN environment. Supported multiclient connection by created dedicated thread handler. Provided GUI for users using Java swing framewok.

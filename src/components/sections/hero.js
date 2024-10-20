@@ -91,12 +91,17 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a graduate student at <b>The Ohio State University</b>, majoring in{' '}
+        
+        {/* I am a graduate student at <b>The Ohio State University</b>, majoring in{' '}
         <b>Computer Science & Engineering</b>. I am focused on expanding my knowledge in the areas
         of High-Performance Computing, Distributed Systems, and Deep Learning. Currently, my
         research efforts are dedicated to a project on Distributed Deep Learning, which I am
         undertaking at OSU's renowned High-Performance Computing lab,{' '}
-        <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a>.{' '}
+        <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a>.{' '} */}
+        My areas of focus include <b>Distributed Deep Learning, Machine Learning, and High-Performance Computing</b>. 
+        I graduated from <b>The Ohio State University</b> with a major in Computer Science & Engineering, 
+        where my research centered on Distributed DL and HPC.
+       
       </p>
     </>
   );
